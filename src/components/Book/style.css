@@ -1,0 +1,27 @@
+.book-list li {
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    border: 2px solid rgb(35, 47, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-list-li div {
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.isRead {
+    text-decoration: line-through;
+    color: green;
+}
+.btn {
+    border-radius: 14px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(174, 4, 4);
+    cursor: pointer;
+}

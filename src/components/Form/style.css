@@ -1,0 +1,51 @@
+.form-block {
+    padding-top: 50px;
+    min-height: 100px;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-block__inp {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form-block__inp input {
+    height: 30px;
+    width: 100%;
+}
+.form-block__inp div {
+    font-weight: bold;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.form-btn {
+    height: 40px;
+    border-radius: 14px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.btns-block {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-add {
+    background-color: rgb(4, 106, 174);
+}
+.btn-remove {
+    background-color: rgb(167, 3, 3);
+}
+.read-books-count {
+    color: green;
+}
+.not-read-books-count {
+    color: rgb(167, 3, 3);
+}
