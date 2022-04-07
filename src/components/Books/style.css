@@ -2,6 +2,9 @@
     margin: 0 auto;
     width: 70%;
 }
+.book-list li {
+    list-style-type: none;
+}
 .no-books {
     text-align: center;
 }

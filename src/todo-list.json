@@ -1,21 +1,25 @@
 [{
         "id": 1,
         "title": "1984",
-        "isRead": true
+        "isRead": true,
+        "description": "Nineteen Eighty-Four (also stylised as 1984) is a dystopian social science fiction novel and cautionary tale written by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society.[2][3] Orwell, a democratic socialist, modelled the totalitarian government in the novel after Stalinist Russia and Nazi Germany. More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated."
     },
     {
         "id": 2,
         "title": "Kolobok",
-        "isRead": true
+        "isRead": false,
+        "description": ""
     },
     {
         "id": 3,
         "title": "Discworld",
-        "isRead": false
+        "isRead": true,
+        "description": ""
     },
     {
         "id": 4,
         "title": "History of Rome",
-        "isRead": false
+        "isRead": false,
+        "description": "One more book with descripton, but smaller"
     }
 ]

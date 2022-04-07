@@ -8,11 +8,19 @@
     align-items: center;
 }
 .form-block__inp {
-    height: 100px;
+    min-height: 100px;
     width: 50%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+.description-inp {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 70px;
+    max-height: 150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .form-block__inp input {
     height: 30px;

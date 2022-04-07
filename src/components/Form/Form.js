@@ -5,7 +5,8 @@ const Form = ({addBook, removeAll, bookList, readBooks}) => {
 
 const [newBook, setNewBook] = useState({
   title: "",
-  isRead: false
+  isRead: false,
+  description: ""
 })
 
 const submitHandler = (e) => {
@@ -14,7 +15,8 @@ const submitHandler = (e) => {
   addBook(newBook)
   setNewBook(() => ({
     isRead: false, 
-    title:""
+    title:"",
+    description: ""
   }))
 
 }
@@ -28,6 +30,11 @@ const submitHandler = (e) => {
             onChange={(e => setNewBook(prew => ({...prew, title: e.target.value})))}
             placeholder="write down the title of the book"
           />
+          <textarea 
+          value={newBook.description}
+          onChange={(e => setNewBook(prew => ({...prew, description: e.target.value})))} 
+          className='description-inp' 
+          placeholder='write down the description of the book'/>
           <div>
             <span className='all-books-count'>All: {bookList.length}</span>
             <span className='read-books-count'>Read: {bookList.length - readBooks.length}</span>

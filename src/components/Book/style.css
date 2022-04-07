@@ -1,4 +1,4 @@
-.book-list li {
+.book-list-li {
     padding: 10px;
     margin: 10px;
     height: 40px;
@@ -7,21 +7,42 @@
     justify-content: space-between;
     align-items: center;
 }
+.description-text {
+   
+}
 .book-list-li div {
-    width: 110px;
+    width: 230px;
+    height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .isRead {
     text-decoration: line-through;
     color: green;
 }
 .btn {
     border-radius: 14px;
-    padding: 10px;
+    height: 40px;
     font-weight: bold;
     color: #fff;
     background-color: rgb(174, 4, 4);
+    cursor: pointer;
+}
+.blue-desc-btn {
+    background-color: rgb(4, 106, 174);
+    border-radius: 14px;
+    height: 40px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.red-desc-btn {
+    background-color: rgb(167, 2, 2);
+    border-radius: 14px;
+    height: 40px;
+    font-weight: bold;
+    color: #fff;
     cursor: pointer;
 }
